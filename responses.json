@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which is the biggest city in Europe?",
+        "response": "Istanbul, Turkey is the largest city in Europe by population."
+    },
+    {
+        "question": "Can you give me two websites where to read books?",
+        "response": "1. Project Gutenberg (https://www.gutenberg.org/) - Project Gutenberg offers over 60,000 free eBooks, including many classic literary works that are in the public domain.\n\n2. ManyBooks (https://manybooks.net/) - ManyBooks provides free eBooks for your eReader, tablet, or smartphone. The website offers a wide selection of genres and authors to choose from."
+    },
+    {
+        "question": "Who is the writer of Harry Potter book?",
+        "response": "J.K. Rowling"
+    },
+    {
+        "question": "Which is the longest tunnel in Europe?",
+        "response": "The Gotthard Base Tunnel in Switzerland is currently the longest tunnel in Europe, measuring approximately 57 kilometers (35.5 miles) in length."
+    },
+    {
+        "question": "How many years old is albanian language",
+        "response": "The Albanian language is estimated to be around 2,500-3,000 years old. It is one of the oldest living languages in Europe."
+    },
+    {
+        "question": "How many is the population of Tirana?",
+        "response": "The population of Tirana, the capital city of Albania, is approximately 873,996."
+    },
+    {
+        "question": "Which is albanian national currency?",
+        "response": "The Albanian national currency is the Albanian lek."
+    },
+    {
+        "question": "Who is the most famous singer in Albania?",
+        "response": "Some of the most famous singers in Albania include Elvana Gjata, Era Istrefi, and Rita Ora."
+    },
+    {
+        "question": "Translate 'hello' to Albanian.",
+        "response": "\"hello\" in Albanian is \"përshëndetje\"."
+    },
+    {
+        "question": "Who discovered America?",
+        "response": "Christopher Columbus is credited with discovering America in 1492."
+    },
+    {
+        "question": "What is the speed of Ferrari?",
+        "response": "The top speed of a Ferrari varies by model, but some of the fastest models can reach speeds over 200 mph (320 km/h). The specific top speed of a Ferrari would depend on the model and specifications of the individual car."
+    },
+    {
+        "question": "What is chatgpt?",
+        "response": "Chatbot GPT-3, also known as chatbot GPT or chatbot GPT-3, is a state-of-the-art language model created by OpenAI. It is the third version of the Generative Pre-trained Transformer (GPT) series and is known for its ability to generate human-like text responses in natural language conversations. Chatbot GPT-3 can understand and respond to text input, making it a powerful tool for chatbots, virtual assistants, and other natural language processing applications."
+    },
+    {
+        "question": "Who is Donald Trump?",
+        "response": "Donald Trump is a businessman, television personality, and politician who served as the 45th President of the United States from 2017 to 2021. He was born on June 14, 1946, in Queens, New York City. Prior to his presidency, Trump was known for his real estate ventures and his role as the host of the reality television show \"The Apprentice.\" Trump's presidency was marked by controversial policies, divisive rhetoric, and multiple impeachment proceedings."
+    },
+    {
+        "question": "Who is Fernando Alonso?",
+        "response": "Fernando Alonso is a Spanish racing driver who is widely regarded as one of the greatest Formula One drivers of all time. He has won two Formula One World Championships, in 2005 and 2006, and has also competed in other racing series such as the World Endurance Championship and the Indianapolis 500. Alonso is known for his skill, determination, and aggressive driving style on the track."
+    },
+    {
+        "question": "Who is Leonardo Da Vinci?",
+        "response": "Leonardo da Vinci was an Italian polymath who lived during the Renaissance period. He was known for his skills as a painter, sculptor, architect, inventor, writer, anatomist, and more. Some of his most famous works include the Mona Lisa and The Last Supper. He is widely considered one of the greatest artists of all time and a key figure in the history of Western art."
+    },
+    {
+        "question": "Which is the most used social network in Europe?",
+        "response": "As of 2021, the most used social network in Europe is Facebook. It has the highest number of active users in countries across the continent, followed closely by Instagram and YouTube."
+    },
+    {
+        "question": "Give me a fish based recipse",
+        "response": "Grilled Lemon Herb Salmon\n\nIngredients:\n- 4 salmon fillets\n- 2 tablespoons olive oil\n- 2 tablespoons lemon juice\n- 2 cloves garlic, minced\n- 1 teaspoon dried parsley\n- 1 teaspoon dried dill\n- Salt and pepper to taste\n- Lemon slices for garnish\n\nInstructions:\n1. Preheat grill to medium-high heat.\n2. In a small bowl, whisk together olive oil, lemon juice, garlic, parsley, dill, salt, and pepper.\n3. Place salmon fillets in a shallow dish and pour marinade over them. Let sit for 20-30 minutes.\n4. Place salmon fillets on the grill, skin side down, and cook for about 5-6 minutes per side, or until fish is cooked through and flakes easily with a fork.\n5. Remove from grill and serve immediately with lemon slices for garnish.\n\nEnjoy your delicious grilled lemon herb salmon!"
+    },
+    {
+        "question": "What’s the longest river in Albania?",
+        "response": "The longest river in Albania is the Drin River, which flows for 282 kilometers (175 miles) within the country's borders."
+    },
+    {
+        "question": "How many oceans are there?",
+        "response": "There are five oceans: the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean."
+    },
+    {
+        "question": "What is an API integration?",
+        "response": "API integration refers to the process of connecting two or more software applications using their APIs (Application Programming Interfaces) to enable them to communicate and share data with each other. This allows different systems to work together seamlessly, transferring information and triggering actions across multiple platforms. API integration simplifies processes, enhances automation, and improves efficiency by eliminating the need for manual data entry and tasks."
+    }
+]
