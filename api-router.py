@@ -3,10 +3,9 @@ import os
 from dotenv import load_dotenv
 import json
 
-
 # Load API key from .env
 load_dotenv()
-api_key = os.getenv('OPENROUTER_API_KEY')
+api_key = os.getenv('ROUTER_API_KEY')
 
 client = openai.OpenAI(
     api_key=api_key,
@@ -68,7 +67,7 @@ for idx, question in enumerate(questions):
         })
 
 #Save responses to JSON file
-with open("responses.json", "w", encoding="utf-8") as f:
+with open("api-router-responses.json", "w", encoding="utf-8") as f:
     json.dump(responses, f, ensure_ascii=False, indent=4)
 
 print("All responses are saved properly as json")
