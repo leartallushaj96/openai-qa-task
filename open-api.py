@@ -2,15 +2,17 @@ import openai
 import os
 from dotenv import load_dotenv
 import json
+import time
+from openai import RateLimitError, APIError, Timeout
 
+# Load API key
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 
-client = openai.OpenAI(
-    api_key=api_key
-)
 
+client = openai.OpenAI(api_key=api_key)
 
+# list of questions
 questions = [
     "Which is the biggest city in Europe?",
     "Can you give me two websites where to read books?",
@@ -36,34 +38,47 @@ questions = [
 
 responses = []
 
+
 for idx, question in enumerate(questions):
     print(f"Sending Question {idx+1}: {question}")
 
-    try:
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": question}]
-        )
+    while True:
+        try:
+          
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": question}]
+            )
 
-        reply = response.choices[0].message.content.strip()
+            reply = response.choices[0].message.content.strip()
 
-        print(f"Response: {reply}\n")
+            print(f"Response: {reply}\n")
 
-        # Store question & answer
-        responses.append({
-            "question": question,
-            "response": reply
-        })
+            responses.append({
+                "question": question,
+                "response": reply
+            })
+            break 
 
-    except Exception as e:
-        print(f"Error for question '{question}': {e}")
-        responses.append({
-            "question": question,
-            "response": "Error occurred"
-        })
+        except RateLimitError:
+            print(f"Rate limit hit for Question {idx+1}. Waiting 10 seconds...")
+            time.sleep(10) 
 
-# Save responses to JSON file
+        except (APIError, Timeout) as e:
+            print(f"Temporary API Error: {e}. Retrying in 5 seconds...")
+            time.sleep(5)
+
+        except Exception as e:
+            print(f"Unexpected Error for Question {idx+1}: {e}")
+            responses.append({
+                "question": question,
+                "response": "Error occurred"
+            })
+            break
+
+
 with open("openapi-responses.json", "w", encoding="utf-8") as f:
     json.dump(responses, f, ensure_ascii=False, indent=4)
 
-print("All responses are saved properly as json")
+print("All responses saved properly to openapi-responses.json")
+

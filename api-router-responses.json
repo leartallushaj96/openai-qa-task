@@ -1,11 +1,11 @@
 [
     {
         "question": "Which is the biggest city in Europe?",
-        "response": "The biggest city in Europe is Istanbul, Turkey, with a population of over 15 million people."
+        "response": "Istanbul in Turkey is the largest city in Europe by population."
     },
     {
         "question": "Can you give me two websites where to read books?",
-        "response": "1. Project Gutenberg (www.gutenberg.org) - Offers over 60,000 free eBooks, including classic literature and out-of-copyright works.\n\n2. Wattpad (www.wattpad.com) - A platform for writers to share their stories with readers for free. You can find a wide variety of genres and authors on Wattpad."
+        "response": "Sure! Two websites where you can read books for free are Project Gutenberg (https://www.gutenberg.org/) and Open Library (https://openlibrary.org/)."
     },
     {
         "question": "Who is the writer of Harry Potter book?",
@@ -13,70 +13,70 @@
     },
     {
         "question": "Which is the longest tunnel in Europe?",
-        "response": "The longest tunnel in Europe is the Gotthard Base Tunnel, located in Switzerland. It measures 57.1 kilometers (35.5 miles) in length and was opened in 2016."
+        "response": "The longest tunnel in Europe is the Lötschberg Base Tunnel, which is located in Switzerland. It measures 34.6 kilometers (21.5 miles) in length."
     },
     {
         "question": "How many years old is albanian language",
-        "response": "The Albanian language is approximately 500-600 years old. It is considered to have been standardized in the early 16th century."
+        "response": "The Albanian language is estimated to be around 1500-2000 years old."
     },
     {
         "question": "How many is the population of Tirana?",
-        "response": "According to the latest data, the population of Tirana (the capital city of Albania) is approximately 800,000."
+        "response": "The population of Tirana, the capital city of Albania, is approximately 420,600 as of 2021."
     },
     {
         "question": "Which is albanian national currency?",
-        "response": "The Albanian national currency is the Albanian lek (ALL)."
+        "response": "The official currency of Albania is the Albanian lek."
     },
     {
         "question": "Who is the most famous singer in Albania?",
-        "response": "This is subjective and can vary depending on individual opinions, but some of the most famous singers in Albania include Elvana Gjata, Rita Ora, and Era Istrefi."
+        "response": "One of the most famous singers in Albania is Elvana Gjata."
     },
     {
         "question": "Translate 'hello' to Albanian.",
-        "response": "\"hello\" translates to \"përshëndetje\" in Albanian."
+        "response": "\"Hello\" translates to \"përshëndetje\" in Albanian."
     },
     {
         "question": "Who discovered America?",
-        "response": "Christopher Columbus is traditionally credited with the discovery of America in 1492."
+        "response": "Christopher Columbus is traditionally credited with discovering America in 1492, although Native Americans had been living on the continent for thousands of years prior to his arrival."
     },
     {
         "question": "What is the speed of Ferrari?",
-        "response": "The top speed of a Ferrari varies depending on the model. Some of the fastest models, such as the Ferrari 812 Superfast, can reach speeds of over 211 mph (340 km/h)."
+        "response": "The top speed of a Ferrari can vary depending on the model. Some Ferrari models have top speeds of over 200 mph (320 km/h), while others can reach speeds closer to 210 mph (337 km/h) or even higher."
     },
     {
         "question": "What is chatgpt?",
-        "response": "ChatGPT is a type of conversational AI model developed by OpenAI that is designed to generate human-like responses in a chat or messaging environment. It is trained on a large dataset of human conversations and can engage in natural language dialogue with users on a wide range of topics."
+        "response": "ChatGPT is an AI-powered chatbot developed by OpenAI that is capable of engaging in natural and conversational text-based conversations with users. It uses a large language model to understand and generate human-like responses, making it useful for a wide range of applications such as customer support, virtual assistants, and entertainment."
     },
     {
         "question": "Who is Donald Trump?",
-        "response": "Donald Trump is an American businessman, television personality, and politician who served as the 45th President of the United States from 2017 to 2021. He is a member of the Republican Party and is known for his controversial statements and policies during his time in office. Trump previously worked as a real estate developer and television producer before entering politics."
+        "response": "Donald Trump is an American businessman, television personality, and politician who served as the 45th President of the United States from 2017 to 2021. He was born on June 14, 1946, in Queens, New York City, and was previously known for his real estate empire and his role as host of the reality television show \"The Apprentice.\" Trump is a controversial figure, known for his unorthodox political style and divisive rhetoric."
     },
     {
         "question": "Who is Fernando Alonso?",
-        "response": "Fernando Alonso is a Spanish racing driver who is widely considered to be one of the greatest Formula One drivers of all time. He is a two-time Formula One World Champion, having won the championship in 2005 and 2006 with the Renault team. Alonso has also competed in other racing series, including the World Endurance Championship and the Indianapolis 500."
+        "response": "Fernando Alonso is a Spanish racing driver who is considered one of the greatest Formula 1 drivers of all time. He has won two World Championships in Formula 1 and has also competed in other racing series such as the Le Mans 24 Hours and the Indianapolis 500. Alonso is known for his aggressive driving style and strategic racecraft."
     },
     {
         "question": "Who is Leonardo Da Vinci?",
-        "response": "Leonardo da Vinci was a Renaissance artist, scientist, inventor, and polymath. He is considered one of the greatest artists of all time, known for his iconic works such as the Mona Lisa and The Last Supper. Da Vinci's diverse interests and talents extended beyond art to include anatomy, engineering, and other disciplines, making him a true Renaissance man."
+        "response": "Leonardo da Vinci was an Italian polymath during the Renaissance period. He was known for being a painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. He is considered one of the greatest artists of all time, with works such as the Mona Lisa and The Last Supper among his most famous paintings. Leonardo da Vinci is also known for his many scientific discoveries and inventions, contributing greatly to fields such as anatomy, engineering, and astronomy."
     },
     {
         "question": "Which is the most used social network in Europe?",
-        "response": "As of 2021, the most used social network in Europe is Facebook. It has the largest number of active users across the continent, followed by Instagram, WhatsApp, and Twitter."
+        "response": "As of 2021, the most used social network in Europe is Facebook. It has the largest number of active users across the continent, followed by Instagram and WhatsApp."
     },
     {
         "question": "Give me a fish based recipse",
-        "response": "Grilled Lemon Garlic Herb Salmon\n\nIngredients:\n- 4 salmon fillets\n- 2 cloves of garlic, minced\n- Zest of 1 lemon\n- Juice of 1 lemon\n- 2 tablespoons of olive oil\n- 1 tablespoon of chopped fresh parsley\n- 1 tablespoon of chopped fresh dill\n- Salt and pepper to taste\n\nInstructions:\n1. In a small bowl, mix together the minced garlic, lemon zest, lemon juice, olive oil, parsley, dill, salt, and pepper.\n2. Place the salmon fillets in a shallow dish and pour the marinade over them. Make sure the fillets are coated evenly with the marinade. Let them marinate for at least 30 minutes.\n3. Preheat the grill to medium-high heat.\n4. Place the salmon fillets on the grill, skin side down. Grill for about 4-5 minutes per side, or until the salmon is cooked through and flakes easily with a fork.\n5. Serve the grilled salmon with a side of steamed vegetables or a fresh salad. Enjoy!"
+        "response": "Grilled Lemon Garlic Salmon\n\nIngredients:\n- 4 salmon fillets\n- 2 cloves garlic, minced\n- 1 lemon, zest and juice\n- 2 tbsp olive oil\n- Salt and pepper, to taste\n\nInstructions:\n1. In a small bowl, mix together the minced garlic, lemon zest, lemon juice, olive oil, salt, and pepper.\n2. Place the salmon fillets in a large dish and pour the marinade over them. Let them marinate for about 30 minutes.\n3. Preheat the grill to medium-high heat.\n4. Place the salmon fillets on the grill and cook for about 4-5 minutes per side, or until the salmon is cooked through and flakes easily with a fork.\n5. Serve the grilled lemon garlic salmon hot with some extra lemon wedges on the side. Enjoy!"
     },
     {
         "question": "What’s the longest river in Albania?",
-        "response": "The longest river in Albania is the Drin River, with a length of approximately 175 kilometers."
+        "response": "The longest river in Albania is the Drin River, which flows for a total distance of 335 kilometers."
     },
     {
         "question": "How many oceans are there?",
-        "response": "There are five oceans: Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic."
+        "response": "There are five recognized oceans: the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean."
     },
     {
         "question": "What is an API integration?",
-        "response": "An API integration refers to the process of connecting different software systems or applications through their application programming interfaces (APIs) to enable them to communicate and share data with each other. This can involve transferring data, requesting information, triggering actions, or performing other tasks between different software systems without the need for manual intervention. API integrations are commonly used to streamline workflows, improve efficiency, and enable the exchange of information between different applications."
+        "response": "API integration is the process of connecting different software applications through their APIs (Application Programming Interfaces) to allow them to communicate and share data with each other. This integration allows different systems to work together seamlessly, enabling them to share and utilize each other's functionalities and resources. By integrating APIs, businesses can streamline their processes, automate tasks, improve data accuracy, and enhance overall efficiency."
     }
 ]
