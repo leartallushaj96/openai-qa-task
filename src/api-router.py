@@ -6,6 +6,7 @@ import time
 from openai import RateLimitError, APIError, Timeout, AuthenticationError, BadRequestError
 import logging
 
+##logging logic
 logging.basicConfig(
     filename='logs/api-router.log',
     filemode='a',
@@ -13,6 +14,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+##load api key
 load_dotenv()
 api_key = os.getenv('ROUTER_API_KEY')
 
@@ -21,6 +23,7 @@ client = openai.OpenAI(
     base_url="https://openrouter.ai/api/v1"
 )
 
+##use of default questions
 default_questions = [
     "Which is the biggest city in Europe?",
     "Can you give me two websites where to read books?",
@@ -44,6 +47,7 @@ default_questions = [
     "What is an API integration?"
 ]
 
+##use of custom questions
 use_custom = input("Do you want to input your own questions? (yes/no): ").strip().lower()
 
 if use_custom == 'yes':
@@ -66,6 +70,7 @@ responses = []
 for idx, question in enumerate(questions):
     print(f"Sending Question {idx+1}: {question}")
 
+    ##managed responses by chatgpt
     while True:
         try:
             response = client.chat.completions.create(
@@ -81,6 +86,7 @@ for idx, question in enumerate(questions):
             })
             break
 
+        ##handling errors
         except RateLimitError:
             print(f"Rate limit hit for Question {idx+1}. Waiting 10 seconds...")
             time.sleep(10)
@@ -109,6 +115,7 @@ for idx, question in enumerate(questions):
             })
             break
 
+##saving responses to json
 with open("responses/api-router-responses.json", "w", encoding="utf-8") as f:
     json.dump(responses, f, ensure_ascii=False, indent=4)
 

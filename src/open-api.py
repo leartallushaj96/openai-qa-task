@@ -6,6 +6,7 @@ import time
 from openai import RateLimitError, APIError, Timeout, AuthenticationError, BadRequestError
 import logging
 
+##implementing logging logic
 logging.basicConfig(
     filename='logs/open-api.log',
     filemode='a',
@@ -13,11 +14,13 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+##loading open_api_key
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 
 client = openai.OpenAI(api_key=api_key)
 
+#using default questions
 default_questions = [
     "Which is the biggest city in Europe?",
     "Can you give me two websites where to read books?",
@@ -41,6 +44,7 @@ default_questions = [
     "What is an API integration?"
 ]
 
+##using custom questions
 use_custom = input("Do you want to input your own questions? (yes/no): ").strip().lower()
 
 if use_custom == 'yes':
@@ -77,7 +81,8 @@ for idx, question in enumerate(questions):
                 "response": reply
             })
             break
-
+        
+        ##Error Handling
         except RateLimitError:
             print(f"Rate limit hit for Question {idx+1}. Waiting 10 seconds...")
             time.sleep(10)
