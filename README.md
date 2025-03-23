@@ -13,6 +13,7 @@ This project demonstrates how to integrate with the OpenAI API (via OpenRouter) 
 
 - Python 3.x installed.
 - OpenRouter account with API key (free, no credit card required).
+- OpenAPI account with API Key
 
 ## Setup Instructions:
 
@@ -27,11 +28,29 @@ pip install -r requirements.txt
 
 3. **Configure API Key:**
 Create a .env file in the root directory.
+OPENAI_API_KEY=your-openai-api-key-here
+ROUTER_API_KEY=your-openrouter-api-key-here
 (You can get your API key from OpenRouter)
-OPENROUTER_API_KEY=your-api-key-here
+
 
 Running the Project:
-python main.py
+Run OpenAI Official API Integration:
 
-The script will send 20 questions to the API.
-Responses will be saved in responses.json
+Command : python open-ai.py
+Sends 20 questions (or allows custom questions).
+
+Saves results to openapi-responses.json.
+
+Logs to open-ai.log.
+
+Run OpenRouter API Integration:
+
+Command : python api-router.py
+Sends 20 questions (or allows custom questions).
+
+Saves results to api-router-responses.json.
+
+Logs to api-router.log.
+
+
+
