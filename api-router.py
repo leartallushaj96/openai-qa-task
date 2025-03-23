@@ -4,6 +4,14 @@ from dotenv import load_dotenv
 import json
 import time
 from openai import RateLimitError, APIError, Timeout, AuthenticationError, BadRequestError
+import logging
+
+logging.basicConfig(
+    filename='api-router.log',
+    filemode='a',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
 
 load_dotenv()
 api_key = os.getenv('ROUTER_API_KEY')
@@ -105,3 +113,4 @@ with open("api-router-responses.json", "w", encoding="utf-8") as f:
     json.dump(responses, f, ensure_ascii=False, indent=4)
 
 print("All responses saved successfully to api-router-responses.json")
+logging.info("Logging is working properly")
