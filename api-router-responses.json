@@ -1,35 +1,35 @@
 [
     {
         "question": "Which is the biggest city in Europe?",
-        "response": "Istanbul in Turkey is the largest city in Europe by population."
+        "response": "The biggest city in Europe by population is Istanbul, Turkey."
     },
     {
         "question": "Can you give me two websites where to read books?",
-        "response": "Sure! Two websites where you can read books for free are Project Gutenberg (https://www.gutenberg.org/) and Open Library (https://openlibrary.org/)."
+        "response": "1. Project Gutenberg (www.gutenberg.org) - Offers over 60,000 free eBooks, including many classic literature titles that are in the public domain.\n2. Open Library (www.openlibrary.org) - Provides access to over 1.7 million free eBooks, with a focus on digitizing and providing access to out-of-print titles."
     },
     {
         "question": "Who is the writer of Harry Potter book?",
-        "response": "J.K. Rowling"
+        "response": "The writer of the Harry Potter book series is J.K. Rowling."
     },
     {
         "question": "Which is the longest tunnel in Europe?",
-        "response": "The longest tunnel in Europe is the Lötschberg Base Tunnel, which is located in Switzerland. It measures 34.6 kilometers (21.5 miles) in length."
+        "response": "The longest tunnel in Europe is the Lötschberg Base Tunnel, located in Switzerland. It is approximately 34.6 miles (55.3 kilometers) long and is used for railway transportation."
     },
     {
         "question": "How many years old is albanian language",
-        "response": "The Albanian language is estimated to be around 1500-2000 years old."
+        "response": "The Albanian language is estimated to be around 850 years old. It is believed to have originated in the 11th century AD."
     },
     {
         "question": "How many is the population of Tirana?",
-        "response": "The population of Tirana, the capital city of Albania, is approximately 420,600 as of 2021."
+        "response": "As of 2021, the estimated population of Tirana, the capital city of Albania, is approximately 895,350."
     },
     {
         "question": "Which is albanian national currency?",
-        "response": "The official currency of Albania is the Albanian lek."
+        "response": "The national currency of Albania is the Albanian lek."
     },
     {
         "question": "Who is the most famous singer in Albania?",
-        "response": "One of the most famous singers in Albania is Elvana Gjata."
+        "response": "One of the most famous singers in Albania is Era Istrefi. She gained international recognition with the hit single \"BonBon\" in 2016. Other popular Albanian singers include Bebe Rexha, Elvana Gjata, and Rita Ora."
     },
     {
         "question": "Translate 'hello' to Albanian.",
@@ -37,46 +37,46 @@
     },
     {
         "question": "Who discovered America?",
-        "response": "Christopher Columbus is traditionally credited with discovering America in 1492, although Native Americans had been living on the continent for thousands of years prior to his arrival."
+        "response": "Christopher Columbus is credited with the European discovery of America in 1492. However, it is important to acknowledge that Indigenous peoples had been living in the Americas long before Columbus arrived."
     },
     {
         "question": "What is the speed of Ferrari?",
-        "response": "The top speed of a Ferrari can vary depending on the model. Some Ferrari models have top speeds of over 200 mph (320 km/h), while others can reach speeds closer to 210 mph (337 km/h) or even higher."
+        "response": "The speed of a Ferrari varies depending on the model. Some of the fastest models, such as the Ferrari LaFerrari, can reach speeds of over 200 mph."
     },
     {
         "question": "What is chatgpt?",
-        "response": "ChatGPT is an AI-powered chatbot developed by OpenAI that is capable of engaging in natural and conversational text-based conversations with users. It uses a large language model to understand and generate human-like responses, making it useful for a wide range of applications such as customer support, virtual assistants, and entertainment."
+        "response": "Chatbot GPT (also known as ChatGPT) is a large language model developed by OpenAI that can generate human-like responses to text input. It uses the GPT-3 (Generative Pre-trained Transformer 3) architecture, which is designed to understand and generate natural language text. ChatGPT can be used in a variety of applications, such as customer service, virtual assistants, and chatbots."
     },
     {
         "question": "Who is Donald Trump?",
-        "response": "Donald Trump is an American businessman, television personality, and politician who served as the 45th President of the United States from 2017 to 2021. He was born on June 14, 1946, in Queens, New York City, and was previously known for his real estate empire and his role as host of the reality television show \"The Apprentice.\" Trump is a controversial figure, known for his unorthodox political style and divisive rhetoric."
+        "response": "Donald Trump is a businessman, television personality, and former President of the United States. He was born on June 14, 1946 in New York City. Trump is best known for his real estate empire and for hosting the reality TV show \"The Apprentice.\" He was elected as the 45th President of the United States in 2016 and served one term until 2021. Trump is also known for his controversial statements and policies during his time in office."
     },
     {
         "question": "Who is Fernando Alonso?",
-        "response": "Fernando Alonso is a Spanish racing driver who is considered one of the greatest Formula 1 drivers of all time. He has won two World Championships in Formula 1 and has also competed in other racing series such as the Le Mans 24 Hours and the Indianapolis 500. Alonso is known for his aggressive driving style and strategic racecraft."
+        "response": "Fernando Alonso is a Spanish racing driver who has competed in Formula One and various other racing series. He is widely regarded as one of the greatest Formula One drivers of all time, having won two World Championships in 2005 and 2006. Alonso has also competed in other racing series such as the World Endurance Championship and the Indianapolis 500."
     },
     {
         "question": "Who is Leonardo Da Vinci?",
-        "response": "Leonardo da Vinci was an Italian polymath during the Renaissance period. He was known for being a painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. He is considered one of the greatest artists of all time, with works such as the Mona Lisa and The Last Supper among his most famous paintings. Leonardo da Vinci is also known for his many scientific discoveries and inventions, contributing greatly to fields such as anatomy, engineering, and astronomy."
+        "response": "Leonardo da Vinci was an Italian polymath, known for his expertise in painting, sculpting, architecture, engineering, anatomy, and various other fields. He is considered one of the greatest artists of all time and is famous for works such as the Mona Lisa and The Last Supper. Leonardo da Vinci is often described as the epitome of the Renaissance man, as he excelled in a wide range of disciplines and made significant contributions to art and science."
     },
     {
         "question": "Which is the most used social network in Europe?",
-        "response": "As of 2021, the most used social network in Europe is Facebook. It has the largest number of active users across the continent, followed by Instagram and WhatsApp."
+        "response": "As of 2021, the most used social network in Europe is Facebook. It has a large user base across the continent, with millions of people using the platform for social networking, communication, and sharing content."
     },
     {
         "question": "Give me a fish based recipse",
-        "response": "Grilled Lemon Garlic Salmon\n\nIngredients:\n- 4 salmon fillets\n- 2 cloves garlic, minced\n- 1 lemon, zest and juice\n- 2 tbsp olive oil\n- Salt and pepper, to taste\n\nInstructions:\n1. In a small bowl, mix together the minced garlic, lemon zest, lemon juice, olive oil, salt, and pepper.\n2. Place the salmon fillets in a large dish and pour the marinade over them. Let them marinate for about 30 minutes.\n3. Preheat the grill to medium-high heat.\n4. Place the salmon fillets on the grill and cook for about 4-5 minutes per side, or until the salmon is cooked through and flakes easily with a fork.\n5. Serve the grilled lemon garlic salmon hot with some extra lemon wedges on the side. Enjoy!"
+        "response": "Fish Tacos\n\nIngredients:\n- 1 lb white fish, such as tilapia or cod\n- 1/2 cup flour\n- 1 tsp cumin\n- 1 tsp chili powder\n- 1/2 tsp garlic powder\n- Salt and pepper to taste\n- 2 tbsp olive oil\n- 8 small corn tortillas\n- 1 cup shredded cabbage\n- 1/2 cup diced tomatoes\n- 1/2 cup diced avocado\n- 1/4 cup chopped cilantro\n- Lime wedges for serving\n\nInstructions:\n1. In a small bowl, mix together the flour, cumin, chili powder, garlic powder, salt, and pepper. Dredge the fish in the flour mixture, coating evenly.\n2. Heat the olive oil in a large skillet over medium-high heat. Add the fish and cook for 3-4 minutes per side, or until cooked through and lightly browned. Remove from heat and let rest for a few minutes.\n3. Heat the tortillas in a separate skillet until warmed through and slightly crispy.\n4. To assemble the tacos, place a piece of fish on each tortilla. Top with shredded cabbage, diced tomatoes, avocado, and cilantro. Serve with lime wedges on the side.\n5. Enjoy your delicious fish tacos!"
     },
     {
         "question": "What’s the longest river in Albania?",
-        "response": "The longest river in Albania is the Drin River, which flows for a total distance of 335 kilometers."
+        "response": "The longest river in Albania is the Drin River, which is approximately 335 kilometers (208 miles) long."
     },
     {
         "question": "How many oceans are there?",
-        "response": "There are five recognized oceans: the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean."
+        "response": "There are five oceans on Earth: Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean."
     },
     {
         "question": "What is an API integration?",
-        "response": "API integration is the process of connecting different software applications through their APIs (Application Programming Interfaces) to allow them to communicate and share data with each other. This integration allows different systems to work together seamlessly, enabling them to share and utilize each other's functionalities and resources. By integrating APIs, businesses can streamline their processes, automate tasks, improve data accuracy, and enhance overall efficiency."
+        "response": "API integration refers to the process of connecting two or more software applications via their APIs (Application Programming Interfaces) in order to enable them to communicate and share data with each other. This allows different software systems to work together and share information, without the need for manual intervention. APIs provide a way for different applications to interact with each other and exchange data in a structured and secure manner. API integration is commonly used in a wide range of industries and applications, such as e-commerce, marketing automation, and customer relationship management."
     }
 ]
