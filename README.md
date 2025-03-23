@@ -36,7 +36,7 @@ ROUTER_API_KEY=your-openrouter-api-key-here
 Running the Project:
 Run OpenAI Official API Integration:
 
-Command : python open-ai.py
+Command : python scr/open-ai.py
 Sends 20 questions (or allows custom questions).
 
 Saves results to openapi-responses.json.
@@ -45,7 +45,7 @@ Logs to open-ai.log.
 
 Run OpenRouter API Integration:
 
-Command : python api-router.py
+Command : python src/api-router.py
 Sends 20 questions (or allows custom questions).
 
 Saves results to api-router-responses.json.

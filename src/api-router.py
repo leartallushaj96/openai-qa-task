@@ -7,7 +7,7 @@ from openai import RateLimitError, APIError, Timeout, AuthenticationError, BadRe
 import logging
 
 logging.basicConfig(
-    filename='api-router.log',
+    filename='logs/api-router.log',
     filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
     level=logging.INFO
@@ -109,7 +109,7 @@ for idx, question in enumerate(questions):
             })
             break
 
-with open("api-router-responses.json", "w", encoding="utf-8") as f:
+with open("responses/api-router-responses.json", "w", encoding="utf-8") as f:
     json.dump(responses, f, ensure_ascii=False, indent=4)
 
 print("All responses saved successfully to api-router-responses.json")
